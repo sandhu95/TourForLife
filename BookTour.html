@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background-color: #FFFACD	;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+nav
+ {
+	float:right;
+	background-color: #C0C0C0;		
+	padding: 0.5%;
+	width: 100%;
+	overflow: auto;
+	margin-top:0%;
+	
+}
+h2
+{
+	color:black;
+}
+nav li
+ {
+	 background-color: #C0C0C0;
+	display:inline-block;
+	margin:0.2em;
+	padding:0.2em;
+	font-size: 1.2em;
+	
+}
+nav ul
+{
+	margin-left:36%;
+}
+nav ul li a
+{
+	text-decoration:none;
+}
+
+.lb
+{
+   color:red;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer
+{ 
+width:100%;
+background-color: lightblue; 
+text-align: center;
+} 
+
+table tr td a
+{
+text-decoration:none;
+}
+#right1
+{
+	background-color: lightblue;	
+	width:100%;
+}
+#size
+{
+	font-size:2em;
+}
+@media (min-width: 340px) and (max-width: 768px) {
+  
+  nav li {
+    display: inline-block;
+    margin: 0.2em;
+    padding: 0.2em;
+    width: 97%;
+    font-size: 1.2em;
+    text-align: center;
+}
+nav ul{
+	text-align:center;
+	width: 80%;
+    margin: 2% auto;
+}
+  .desktop-only{
+	  display:none;
+  }
+}
+@media (min-width: 769px) and (max-width:1126px) {
+  
+  .desktop-only{
+	  display:none;
+  }
+  nav ul{
+	text-align:center;
+	width: 80%;
+    margin: 2% auto;
+}
+}
+</style>
+</head>
+<body >
+<nav>
+		<ul><b>
+			<li class="desktop-only"> </li>
+			<li><a href="Home.html">Home</a></li>&nbsp; 
+			<li><a href="Places.html">Places</a></li>&nbsp;  
+			<li><a href="Offers.html">Offers</a></li>&nbsp; 
+			<li><a href="Activities.html">Activities</a></li>&nbsp; 
+			<li><a href="BookTour.html">BookTour</a></li>&nbsp;  
+			<li><a href="AboutUs.html">AboutUs</a></li>&nbsp;  
+			<li><a href="ContactUs.html">ContactUs</a></li></b>
+		</ul>
+	</nav>
+<center><h2>Book tour to explore the whole Toronto</h2></center>
+
+<div class="container" >
+  <form action="submit.html" target="_blank" >
+    <label for="fname" class="lb">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name..">
+
+    <label for="lname" class="lb">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="last name..">
+	
+	<label for="dob" class="lb">Date of Birth</label>
+    <input type="text" id="dob" name="lastname" placeholder="date of birth">
+	
+	<label for="lname" class="lb">Telephone</label>
+    <input type="text" id="telephone" name="telephone" placeholder="">
+	
+	<label for="lname" class="lb">Email Address</label>
+    <input type="text" id="email" name="telephone" placeholder="">
+	
+	<label for="lname" class="lb">Adults</label>
+    <input type="text" id="adult" name="adult" >
+	
+	<label for="lname" class="lb">Children</label>
+    <input type="text" id="child" name="Children" placeholder="">
+	
+	<label for="lname" class="lb">Senior</label>
+    <input type="text" id="lname" name="senior" placeholder="">
+
+    <label for="places" class="lb">Places</label>
+    <select id="places" name="places">
+      <option value="cn tower">CN Tower</option>
+      <option value="aquarium">Ripley's Aquarium of Canada</option>
+      <option value="zoo">Toronto Zoo</option>
+	  <option value="wonderland">Canada's Wonderland</option>
+	  <option value="loma">Casa Loma</option>
+	  <option value="gallery">Art Gallery of Ontario</option>
+	   <option value="rogers">Rogers Centre</option>
+	    <option value="museum">Royal Ontario Museum</option>
+		 <option value="island">Toronto Islands</option>
+		  <option value="city hall">City Hall</option>
+		   <option value="eaton centre">Eaton Centre</option>
+    </select>
+	<label for="offers" class= "lb">Offers</label>
+	<select id ="offers" name="offers">
+	<option value="family">Family offer</option>
+	<option value="Student">Student</option>
+	<option value="group trip">Group Trip</option>
+	
+	</select>
+    <label for="starttrip" class="lb">When you want to go for a trip</label>
+    <select id="day" name="day">
+	<option value ="day">Day</option>
+      <option value="sun">1</option>
+      <option value="mon">2</option>
+      <option value="tues">3</option>
+	  <option value="wed">4</option>
+	  <option value="thurs">5</option>
+	  <option value="fri">6</option>
+	  <option value="sat">7</option>
+	  <option value="sat">8</option>
+	  <option value="sat">9</option>
+	  <option value="sat">10</option>
+	  <option value="sat">11</option>
+	  <option value="sat">12</option>
+	  <option value="sat">13</option>
+	  <option value="sat">14</option>
+	  <option value="sat">15</option>
+	  <option value="sat">16</option>
+	  <option value="sat">17</option>
+	  <option value="sat">18</option>
+	  <option value="sat">19</option>
+	  <option value="sat">20</option>
+	  <option value="sat">21</option>
+	  <option value="sat">22</option>
+	  <option value="sat">23</option>
+	  <option value="sat">24</option>
+	  <option value="sat">25</option>
+	  <option value="sat">26</option>
+	  <option value="sat">27</option>
+	  <option value="sat">28</option>
+	  <option value="sat">29</option>
+	  <option value="sat">30</option>
+	  
+    </select>
+	<select id = "month" name= "month">
+	<option value ="month">Month</option>
+	<option value = "january">January</option>
+	<option value ="feb">February</option>
+	<option value ="march">March</option>
+	<option value ="april">April</option>
+	<option value ="may">May</option>
+	<option value ="june">June</option>
+	<option value ="july">July</option>
+	<option value ="august">August</option>
+	<option value ="september">September</option>
+	<option value ="october">October</option>
+	<option value ="november">November</option>
+	<option value ="december">December</option>
+	
+	</select>
+    <input type="submit" value="Submit" >
+  </form>
+</div>
+<footer >
+	<center><table  cellspacing="8">
+		<tr>
+		<td>
+			<b>Places</b>
+			</td>
+			<td>
+			<b>Activities</b>
+			</td>
+		</tr>
+		<tr>
+			<td><A HREF=" http://www.cntower.ca/intro.html">CN Tower</A>
+			</td>
+			<td><a href="Paintball.html">Paintball</a>
+			</td>
+		</tr>
+		<tr>
+			<td><A HREF="  https://www.ripleyaquariums.com/canada/"> Ripley's Aquarium</A>
+			</td>
+			<td><a href="Horse_Riding.html">Horse Riding</a>
+			</td>
+		</tr>
+		<tr>
+			<td><A HREF="http://www.casaloma.org/">  Casa Loma</A>
+			</td>
+			<td><a href="SkyDiving.html">Skydiving</a>
+			</td>
+		</tr>
+		<tr>
+			<td><A HREF=" https://www.canadaswonderland.com/"> Wonderland</A>
+			</td>
+			<td><a href="RopeChallenges.html">Rope Challenges</a>
+			</td>
+		</tr>
+		<tr>
+			<td><A HREF="  http://www.torontozoo.com/"> Toronto Zoo</A>
+			</td>
+			<td><a href="Ballooning.html">Ballooning</a>
+			</td>
+		</tr>
+		<tr>
+			<td><A HREF="Places.html"> More</A>
+			</td>
+			<td><a href="Activities.html">More</a>
+			</td>
+		</tr>
+	</table>
+	</center>
+	<div id="center">
+	The hottest deals and discount in your inbox<br>
+	<div>
+	<div id="size">Subscribe to Our Newsletter
+	<form >
+    
+    <input type="textarea" name="firstname" placeholder="Name*">
+    <input type="email" name="email" placeholder="E-mail">
+	<button type="submit" form="form1" value="Submit">Subscribe</button>
+	</div>
+    
+  </form>
+ <br>
+  <center><A HREF="AboutUs.html">AboutUs</A>&nbsp;&nbsp;
+  <A HREF="ContactUs.html">ContactUs</A>
+  </center><br>
+  <div id="right1">
+  <a href="#" class="fa fa-snapchat"><img src="photoes\icons\snapchat.png" width="3%" height="4%"></a>&nbsp;&nbsp;
+<a href="#" class="fa fa-twitter"><img src="photoes\icons\twitter.png" width="3%" height="4%"></a>&nbsp;&nbsp;
+<a href="#" class="fa fa-insta"><img src="photoes\icons\insta.jpg" width="3%" height="4%"></a>
+</div>
+</footer>
+</body>
+</html>

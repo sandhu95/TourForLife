@@ -1,0 +1,205 @@
+
+body 
+{	  font-color: #000000;  
+	  background-color: #FFFFFF;
+	  font-family: Calibri, sans-serif; 
+}
+h1,h2 
+{
+	font-family: Verdana, sans-serif; 
+	
+}
+
+h1{
+  text-shadow: 3px 3px #FFFFFF	;
+  text-align: center;
+  font-size: 3em;
+}
+h2 {
+  
+  text-align: center;
+  font-size: 2em;
+}
+h3{
+		font-size: 2.5em;	
+        text-align: center;
+}
+
+p {
+	text-align: justify;
+	font-size: 2em;
+	
+}
+
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	padding: 0.5%;
+}
+p
+{
+	text-align: justify;
+	font-size: 2em;
+	text-align:center;
+	
+}
+header
+ {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0%;
+
+	color: #8B0000;
+	padding: 0.5%;
+	overflow:auto;
+	
+}
+#X
+{
+	float:left;
+}
+#Y
+{
+	float:right;
+}
+nav
+ {
+	float:right;
+	background-color: #BC8F8F;		
+	padding: 0.5%;
+	width: 100%;
+	overflow: auto;
+	margin-top:0%;
+	
+}
+nav ul
+{
+	margin-left:38%;
+}
+nav li
+ {
+	 
+	display:inline;
+	margin:0.2em;
+	padding:0.2em;
+	font-size: 1.2em;
+	
+}
+nav ul li a
+{
+	text-decoration:none;
+}	
+
+#second
+ {
+	display: block;
+	margin: 1.5%;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #BC8F8F;
+	box-shadow: .5em .5em .5em #404040;
+	float: left;
+	width: 65%;
+}
+
+
+footer 
+{
+	/*font-size: .70em;*/
+	text-align: right;
+	clear: left;
+}
+
+section
+{
+	background-color: #BC8F8F;
+	color: #8B0000;
+	margin-top: 2%;
+	margin-bottom:2%;
+	padding: 1%;
+}
+article
+{
+	background-color: BC8F8F;
+	border-radius: 3em;
+	color: #8B0000;
+	margin-top: 1%;
+	padding:2%;
+}
+aside
+{
+	
+	border-radius: 3em;
+	width:25%;
+	float:right;
+	padding: 2%;
+	margin-top: 1%;
+	color:#000000FFA500;
+}
+
+}
+.mobile
+{
+	nav li display: none;
+	text-decoration:none;
+}
+footer
+{ 
+background-color: lightblue; 
+text-align: center;
+} 
+
+table tr td a
+{
+text-decoration:none;
+}
+#right1
+{
+	background-color: lightblue;
+	float:right;	
+	width:100%;
+}
+#size
+{
+	font-size:2em;
+}
+@media (min-width: 340px) and (max-width: 768px) {
+	
+  
+  nav li {
+    display: inline-block;
+    margin: 0.2em;
+    padding: 0.2em;
+    width: 97%;
+    font-size: 1.2em;
+    text-align: center;
+}
+nav ul{
+	text-align:center;
+	width: 80%;
+    margin: 2% auto;
+}
+  .desktop-only{
+	  display:none;
+  }
+  nav ul
+{
+	margin-left:auto;
+}
+}
+@media (min-width: 769px) and (max-width:1126px) {
+  
+  .desktop-only{
+	  display:none;
+  }
+  nav ul{
+	text-align:center;
+	width: 80%;
+    margin: 2% auto;
+}
+  nav ul
+{
+	margin-left:auto;
+}
+}
