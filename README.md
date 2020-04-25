@@ -1,3 +1,3 @@
-# Web_Technologies_Term1_Project
+# TourForLife
 
-This project was to create a basic HTML and CSS based working website in the Computer Software and Database Development course.This website is based on Tourism in Toronto.
+This project has a basic HTML and CSS based working website based on Tourism in Toronto. Various CSS functionalities has been implemented to make GUI user-friendly in all Desktop, Tab or Mobile view.
